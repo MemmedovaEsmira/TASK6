@@ -53,11 +53,16 @@ li{list-style: none;}
    
   }
   
-  .nav_menu_item{
+  .nav_menu_item_info{
+   text-decoration: none;
+    color: rgb(153, 153, 199);
+  }
+  .nav_menu_item_info:hover{
+    cursor: pointer;
     color: white;
   }
-  .nav_menu_item:hover{
-    cursor: pointer;
+  .nav_menu_item_info:focus{
+    color: white;
   }
 
   .navbar_btn{
@@ -212,7 +217,7 @@ text-decoration: none;
   width: 600px;
   height: 600px;  
   padding-left: 50px;
- margin-top: 50px;
+  margin-top: 50px;
 }
 
 
